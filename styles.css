@@ -14,11 +14,22 @@ body {
 }
 
 header {
-    background: #b3bbbd;
+    background: #d96a21; /* Adjust the color as needed */
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;
     border-bottom: #e8491d 3px solid;
+    position: relative;
+}
+
+.profile-photo {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Ensure the height is the same as the width */
+    border-radius: 50%; /* Makes the image circular */
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 2px solid #ffffff; /* Optional: Adds a border around the photo */
 }
 
 header h1 {
@@ -60,7 +71,7 @@ section {
 }
 
 footer {
-    background: #b3bbbd;
+    background: #d96a21;
     color: #ffffff;
     text-align: center;
     padding: 20px 0;
